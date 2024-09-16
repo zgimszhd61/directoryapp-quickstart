@@ -10,21 +10,21 @@ const NavBar = () => {
                 <div className="flex flex-row items-center gap-2 transition-all hover:opacity-70">
                     <FaRegFolderOpen className="text-xl" />
                     <p className="font-medium tracking-tighter text-black">
-                        DirectorySource
+                        目录源
                     </p>
                 </div>
             </Link>
             <div className="flex flex-row gap-4 items-center">
                 <Link href="/about">
-                    <p className="text-sm transition-all hover:opacity-70">About</p>
+                    <p className="text-sm transition-all hover:opacity-70">关于我们</p>
                 </Link>
                 <Link href="/concat">
-                    <p className="text-sm transition-all hover:opacity-70">Concat</p>
+                    <p className="text-sm transition-all hover:opacity-70">联系我们</p>
                 </Link>
                 <Link href="/submit">
                     <button className="flex flex-row gap-1 items-center bg-white transition-all  hover:bg-gray border border-gray-300 py-1 px-2 rounded">
                         <GoPlus />
-                        <p className="text-sm">Submit</p>
+                        <p className="text-sm">提交</p>
                     </button>
                 </Link>
             </div>
